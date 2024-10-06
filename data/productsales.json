@@ -1,0 +1,293 @@
+{
+  "indexname": "langchain-chatbot",
+  "data": [
+    {
+      "product name": "Freshping by Freshworks",
+      "product description": "Freshping is a simple Uptime & Performance monitoring tool which helps monitoring uptime/downtime, outages and performance of websites, APIs, web services, web applications with instant outage/down time alerts.",
+      "product domain": "Performance monitoring",
+      "owner": "Catherine H.",
+      "release date": "2023-11-10",
+      "ratings": "4",
+      "bug count": "24",
+      "country": "India",
+      "company size": 4,
+      "sales forecast": 209,
+      "test": ""
+    },
+    {
+      "product name": "Zendesk Support Suite",
+      "product description": "Provide customer support by email, social media, voice, and mobile phone with complete data reporting, TRUSTe certification, and 90+ integrations.",
+      "product domain": "customer support",
+      "owner": "Virgil T",
+      "release date": "2021-09-01",
+      "ratings": "1",
+      "bug count": "400",
+      "country": "Germany",
+      "company size": 100
+    },
+    {
+      "product name": "Zendesk Support Suite",
+      "product description": "Provide customer support by email, social media, voice, and mobile phone with complete data reporting, TRUSTe certification, and 90+ integrations.",
+      "product domain": "customer support",
+      "owner": "Kevin",
+      "release date": "2020-09-01",
+      "ratings": "10",
+      "bug count": "520",
+      "country": "USA",
+      "company size": 200
+    },
+    {
+      "product name": "HubSpot Marketing Hub",
+      "product description": "Marketing automation software to help you attract the right audience, convert more visitors into customers, and run complete inbound marketing campaigns at scale — all on one powerful, easy-to-use CRM platform.",
+      "product domain": "Marketing automation",
+      "owner": "Kevin",
+      "release date": "2021-07-01",
+      "ratings": "5",
+      "bug count": "23",
+      "country": "USA",
+      "company size": 234
+    },
+    {
+      "product name": "Paylocity",
+      "product description": "Paylocity’s comprehensive product suite delivers a unified platform for professionals to make strategic decisions in the areas of benefits, core HR, payroll, talent, and workforce management, while cultivating a modern workplace and improving employee engagement.",
+      "product domain": "HR",
+      "owner": "Albert",
+      "release date": "2021-06-16",
+      "ratings": "3",
+      "bug count": "589",
+      "country": "Germany",
+      "company size": 12345
+    },
+    {
+      "product name": "Confluence",
+      "product description": "Give your team one place to share, find, and collaborate on information they need to get work done.",
+      "product domain": "collaborate on information",
+      "owner": "Ryan",
+      "release date": "2021-01-10",
+      "ratings": "5",
+      "bug count": "34",
+      "country": "USA",
+      "company size": 789
+    },
+    {
+      "product name": "Attentive",
+      "product description": "Attentive is a personalized mobile messaging platform that helps enterprise retail brands acquire, retain, and interact with mobile shoppers in a new way",
+      "product domain": "messaging platform",
+      "owner": "Jakub",
+      "release date": "2021-10-01",
+      "ratings": "4",
+      "bug count": "342",
+      "country": "India",
+      "company size": 23
+    },
+    {
+      "product name": "Zoho Desk",
+      "product description": "Zoho Desk pulls in all your customer interactions from across multiple channels into a single, clean interface. You can then seamlessly continue these conversations and help customers easily.",
+      "product domain": "conversations",
+      "owner": "Jonathan",
+      "release date": "2021-10-01",
+      "ratings": "5",
+      "bug count": "22",
+      "country": "Germany",
+      "company size": 1235
+    },
+    {
+      "product name": "Klaviyo",
+      "product description": "Klaviyo, a unified customer platform for email, SMS, and more, gives your online brand direct ownership of your consumer data and interactions.",
+      "product domain": "conversations",
+      "owner": "Brady",
+      "release date": "2022-04-01",
+      "ratings": "4",
+      "bug count": "34",
+      "country": "USA",
+      "company size": 345
+    },
+    {
+      "product name": "ServiceNow App Engine",
+      "product description": "With ServiceNow App Engine, simplify, accelerate, and scale digital experiences. Build low-code apps quickly, with more creators and less complexity. Safely scale cross-enterprise experiences that users love. Bring new enterprise apps to market in half the time and one-third the cost with low-code apps. Reimagine every process as a digital workflow. Empower developers and builders of all skill levels to create low-code workflow apps fast.",
+      "product domain": "digital workflow",
+      "owner": "Krithiv",
+      "release date": "2020-02-01",
+      "ratings": "4",
+      "bug count": "743",
+      "country": "USA",
+      "company size": 6655
+    },
+    {
+      "product name": "Braze",
+      "product description": "Create powerful customer engagement with ease, at any scale",
+      "product domain": "customer engagement",
+      "owner": "Parker",
+      "release date": "2020-03-01",
+      "ratings": "4",
+      "bug count": "234",
+      "country": "India",
+      "company size": 6778
+    },
+    {
+      "product name": "Remote",
+      "product description": "Remote offers global HR solutions for the future of work. Learn about how we make it possible for businesses of all sizes to employ global talent legally and easily.",
+      "product domain": "HR",
+      "owner": "Michael",
+      "release date": "2021-01-01",
+      "ratings": "3",
+      "bug count": "45",
+      "country": "Germany",
+      "company size": 23
+    },
+    {
+      "product name": "Cvent Registration",
+      "product description": "Attract and convert audiences with automated, personalized marketing and beautifully branded websites. Manage speakers, sponsors, and exhibitors. Deliver great content. Event success starts with a unified planning and marketing solution for every event.",
+      "product domain": "marketing ",
+      "owner": "Tessa",
+      "release date": "2021-01-10",
+      "ratings": "2",
+      "bug count": "67",
+      "country": "USA",
+      "company size": 890
+    },
+    {
+      "product name": "Gong",
+      "product description": "The patented Gong Revenue Intelligence Platform™ captures and understands every customer interaction, then delivers insights at scale, empowering revenue teams to make decisions based on data instead of opinions.",
+      "product domain": "Revenue Intelligence Platform",
+      "owner": "Daan",
+      "release date": "2021-10-12",
+      "ratings": "4",
+      "bug count": "12",
+      "country": "Germany",
+      "company size": 22
+    },
+    {
+      "product name": "Seismic",
+      "product description": "Seismic’s leading sales enablement solution allows marketing teams to personalize content at scale and equips large sales teams with the right content for every interaction, dramatically improving time spent selling and win rates.",
+      "product domain": "sales ",
+      "owner": "Ryan",
+      "release date": "2021-09-01",
+      "ratings": "4",
+      "bug count": "345",
+      "country": "India",
+      "company size": 55
+    },
+    {
+      "product name": "OutSystems",
+      "product description": "Discover how you can develop business-critical applications fast with high-performance low-code. Learn about the OutSystems platform now.",
+      "product domain": "performance ",
+      "owner": "Gurpreet",
+      "release date": "2020-01-01",
+      "ratings": "4",
+      "bug count": "23",
+      "country": "USA",
+      "company size": 778
+    },
+    {
+      "product name": "Insider",
+      "product description": "Insider is the first integrated Growth Management Platform helping digital marketers drive growth across the funnel, from Acquisition to Activation, Retention, and Revenue from a unified platform powered by Artificial Intelligence and Machine Learning.",
+      "product domain": "digital marketing",
+      "owner": "Kelson",
+      "release date": "2009-01-10",
+      "ratings": "2",
+      "bug count": "11",
+      "country": "USA",
+      "company size": 321
+    },
+    {
+      "product name": "Rippling",
+      "product description": "A Single, Modern System for Your Payroll, Benefits, HR & IT.",
+      "product domain": "HR",
+      "owner": "Naudy Jose",
+      "release date": "2021-10-01",
+      "ratings": "4",
+      "bug count": "25",
+      "country": "USA",
+      "company size": 887
+    },
+    {
+      "product name": "Amplitude Analytics",
+      "product description": "Amplitude is an analytics solution built for modern product teams.",
+      "product domain": "analytics ",
+      "owner": "Pranav",
+      "release date": "2021-05-01",
+      "ratings": "1",
+      "bug count": "23",
+      "country": "Germany",
+      "company size": 443
+    },
+    {
+      "product name": "Asana",
+      "product description": "Asana helps teams manage and coordinate their work by making plans, processes, and responsibilities clear.",
+      "product domain": "teams management",
+      "owner": "Raffi",
+      "release date": "2023-12-01",
+      "ratings": "4",
+      "bug count": "89",
+      "country": "Germany",
+      "company size": 980
+    },
+    {
+      "product name": "IDrive Online Backup",
+      "product description": "A single account to backup and sync data from multiple computers and mobiles",
+      "product domain": "backup and sync",
+      "owner": "Marcel",
+      "release date": "2021-01-01",
+      "ratings": "2",
+      "bug count": "456",
+      "country": "Germany",
+      "company size": 33
+    },
+    {
+      "product name": "Lead Forensics",
+      "product description": "Lead Forensics is the essential software in B2B marketing, instantly know who is visiting your website and get contact info. Try for free.",
+      "product domain": "B2B marketing",
+      "owner": "Paul",
+      "release date": "2023-12-01",
+      "ratings": "5",
+      "bug count": "12",
+      "country": "Germany",
+      "company size": 313
+    },
+    {
+      "product name": "Hootsuite",
+      "product description": "Hootsuite is the leader in social media management, trusted by more than 18 million users. With Hootsuite, you can confidently schedule posts, engage in conversations, and track your social performance, all in one place, giving you the right tools to grow your brands, businesses, and customer relationships with social.",
+      "product domain": "social media management",
+      "owner": "XYZ",
+      "release date": "2020-10-01",
+      "ratings": "2",
+      "bug count": "45",
+      "country": "USA",
+      "company size": 789
+    },
+    {
+      "product name": "Loom",
+      "product description": "Communicate more effectively with video messaging for work. Individuals and teams can get started for free on our Starter plan.",
+      "product domain": "video messaging",
+      "owner": "Matthew",
+      "release date": "2023-01-15",
+      "ratings": "4",
+      "bug count": "90",
+      "country": "India",
+      "company size": 111
+    },
+    {
+      "product name": "HubSpot Sales Hub",
+      "product description": "Supercharge your sales process with Sales Hub, a powerful and easy-to-use sales CRM that includes sales engagement tools, configure-price-quote (CPQ) functionality, and robust sales analytics for growing teams.",
+      "product domain": "sales ",
+      "owner": "Rafid Muhymin",
+      "release date": "2021-01-15",
+      "ratings": "5",
+      "bug count": "60",
+      "country": "India",
+      "company size": 3458
+    },
+    {
+      "product name": "BambooHR",
+      "product description": "Make a successful transition from tracking employee information in spreadsheets to managing it with personalized HR software that frees up time for meaningful work.",
+      "product domain": "HR",
+      "owner": "Hafizi",
+      "release date": "2022-07-01",
+      "ratings": "4",
+      "bug count": "123",
+      "country": "USA",
+      "company size": 127
+    }
+  ]
+}
