@@ -4,8 +4,8 @@ from langchain_community.document_loaders import JSONLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 import pinecone
 from langchain_community.vectorstores import Pinecone
-from langchain_openai import AzureOpenAIEmbeddings
-# ServerlessSpec - necessary to create an index
+from langchain_huggingface import HuggingFaceEmbeddings
+# from langchain_openai import AzureOpenAIEmbeddings
 from pinecone import ServerlessSpec
 
 load_dotenv(find_dotenv(),override=True)
@@ -19,34 +19,41 @@ def load_document():
     data = loader.load()
     return data
 
-def chunk_document(data, chunk_size=500, chunk_overlap=0):
+def chunk_document(data, chunk_size=1000, chunk_overlap=0):
 
-   print("chunking data...")
+   print(f"chunking data...")
    text_splitter= RecursiveCharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap)
    chunks = text_splitter.split_documents(data)
    return chunks
 
 # Embedding and Uploading to a Vector DB (PINECONE)
-def insert_or_fetch_embeddings(index_name, chunks):
+def prepare_vectorstore(index_name):
+
+    # embeddings = AzureOpenAIEmbeddings(model= 'text-embedding-ada-002', dimensions=1536, api_version="2023-03-15-preview")
+    #AzureOpenAIEmbeddings 'text-embedding-ada-002' model deployment is not available in Azure OpenAI service ('404 Not Found' : Deployment resource not found),
+    # going for HuggingFaceEmbeddings model.
+    embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 
     pc = pinecone.Pinecone() #pinecone api_key already in .env(dotenv)
-    embeddings = AzureOpenAIEmbeddings(model= 'text-embedding-ada-002', dimensions=1536, api_version="2023-03-15-preview")
 
     if index_name in pc.list_indexes().names():
-        print(f"Index name {index_name} already exists. Loading embeddings...", end='')
+        print(f"Index name {index_name} already exists.", end='')
         vector_store = Pinecone.from_existing_index(index_name, embeddings)
 
     else:
         print(f"Creating new index {index_name} and embeddings...", end='')
         pc.create_index(
             name=index_name,
-            dimension=1536,
+            dimension=384,
             metric='cosine',
             spec=ServerlessSpec(
                 cloud="aws",
                 region="us-east-1"
             )
         )
+        print("preparing data for vector database...", end='')
+        doc = load_document()
+        chunks = chunk_document(doc)
         vector_store = Pinecone.from_documents(chunks,embeddings,index_name=index_name)
 
     return  vector_store

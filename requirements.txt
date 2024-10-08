@@ -5,3 +5,5 @@ pinecone
 streamlit
 python-dotenv
 openai
+sentence-transformers
+langchain-huggingface
